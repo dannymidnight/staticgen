@@ -33,7 +33,7 @@ var transport = &http.Transport{
 
 // http client.
 var client = &http.Client{
-	Timeout:   time.Second * 10,
+	Timeout:   time.Minute,
 	Transport: transport,
 }
 
